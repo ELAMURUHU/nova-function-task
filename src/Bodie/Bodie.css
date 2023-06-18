@@ -1,0 +1,66 @@
+.flex-item-13 {
+    width: 41.66%;
+   
+}
+.flex-item-14{
+	width:58.33%;
+    padding-right: 15px;
+}
+
+.sec-header{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.sec-header h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.sec-header h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: #56b8e6;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.why-image{
+    background: url(../images/why-us-bg.jpg) ;
+    min-height: 500px;
+    background-size: cover;
+}
+
+.slide{
+    background-color: #f7f9fc;
+    min-height: 500px;
+}
+
+.swiper{
+    padding: 140px 140px 120px 140px;
+   
+}
+
+.swiper h3{
+    font-size: 24px;
+    font-weight: 700;
+    color:#1b2f45;
+    
+}
+.swiper h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: #29486a;
+    padding-top: 15px;
+}
+
+.swiper p{
+    color: #2b180d;
+    padding-top: 15px;
+    line-height: 1.5;
+}

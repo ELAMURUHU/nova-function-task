@@ -1,0 +1,148 @@
+.footer-content{
+    background-color: #f7f9fc;
+    padding: 60px 0 30px 0;
+}
+.last-contanier{
+    display: flex;
+    
+}
+
+.foo-logo{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #1b2f45;;
+    
+    margin-top: 3px;
+}
+.foo-para{
+    font-size: 15px;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: #1b2f45;
+}
+.social-links{
+    display: flex;
+    margin-top: 20px;
+}
+.social-links a{
+    display: flex;
+    font-size: 14px;
+    line-height: 0;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    color: rgba(27, 47, 69, 0.5);
+    margin-right: 10px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#56b8e6;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.footer-news h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #29486a;
+}
+
+.footer-news ul{
+    list-style: none;
+    line-height: 2.5;
+    font-size: 15px;
+}
+
+.footer-news ul li{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer-news-1 ul{
+    list-style: none;
+    margin-top: 10px;
+    line-height: 2.5;
+    font-size: 15px;
+}
+
+.footer-news-1 ul li{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer-news ul a{
+    color: #31547c;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.footer-news-1 ul a{
+    color: #31547c;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+
+
+.footer-news ul i{
+    margin-right: 2px;
+    color:#c9d6ed;
+    font-size: 8px;
+}
+.footer-news-1 ul i{
+    margin-right: 2px;
+    color:#c9d6ed;
+    font-size: 8px;
+}
+
+.address h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #29486a;
+    
+    padding-bottom: 12px;
+
+}
+
+.address p{
+    line-height: 26px;
+    color: #1b2f45;
+    margin-top: 16px;
+    font-size: 15px;
+}
+
+.phone{
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-legal{
+    background: #fff;
+    padding: 30px 0;
+    line-height: 1.8;
+}
+
+.copyright{
+    text-align: center;
+    color: #1b2f45;
+    font-size: 14px;
+}
+.credits{
+    text-align: center;
+    font-size: 13px;
+}
+.credits a{
+    color:#56b8e6;
+    text-decoration: none;
+    
+    
+}

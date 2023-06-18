@@ -1,0 +1,88 @@
+.flex-item-4{
+	width:33.33%;
+	
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-it{
+    display: flex;
+}
+
+
+.service-lists{
+    padding: 80px 0;
+}
+
+
+.ser-header{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.ser-header h2{
+    font-size: 32px;
+    
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.ser-header h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color:#56b8e6;;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.shop{
+    display: flex;
+}
+.fa-briefcase{
+    font-size: 32px;
+    color:#f57813;
+}
+
+.brief-desc{
+    padding-left: 20px;
+    line-height: 24px;
+    font-size: 15px;
+}
+.brief-desc h3{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+
+.fa-list-alt{
+    
+
+    font-size: 32px;
+    color: #15a04a;
+}
+
+.fa-bar-chart{
+    font-size: 32px;
+    color:#d90769;
+}
+.now{
+    margin-top: 70px;
+}
+
+.fa-binoculars{
+    font-size: 32px;
+    color:#15bfbc;
+}
+
+.fa-sun-o{
+    font-size: 32px;
+    color:#f5cf13;
+}
+
+.fa-calendar{
+    font-size: 32px;
+    color: #1335f5;
+}

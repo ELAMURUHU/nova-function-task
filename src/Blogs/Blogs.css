@@ -1,0 +1,76 @@
+.blog{
+    padding-bottom: 80px;
+}
+
+.blog-header{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+.blog-header h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.blog-header h2::after{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background: #56b8e6;;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.blog-cont{
+    display: flex;
+}
+.blogger-1 img{
+    width: 100%;
+}
+
+.meta{
+    margin-top: 15px;
+}
+
+.post-date{
+    font-size: 15px;
+    color:#56b8e6;
+}
+
+.post-author{
+    font-size: 15px;
+    color: #1b2f45;
+}
+
+.post-title{
+    font-size: 18px;
+    color:#1b2f45;;
+     margin: 15px 0 0 0;
+   
+}
+
+.post-para{
+    margin: 15px 0 0 0;
+    color: rgba(27, 47, 69, 0.7);
+    line-height: 1.5;
+}
+
+.forward{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    
+    margin-top: 15px;
+    color:#56b8e6;
+}
+
+.forward i{
+    margin-left: 4px;
+    font-size: 18px;
+}

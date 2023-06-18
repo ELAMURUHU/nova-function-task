@@ -1,0 +1,105 @@
+.flex-item-4{
+	width:33.33%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item-7{
+	width:58.33%;
+	
+}
+
+.banner{
+    width: 100%;
+    min-height: 100vh;
+   
+    
+    background: url(../images/hero-bg.jpg) top center;
+    background-size: cover;
+    position: relative;
+    padding: 120px 0;
+    z-index: 3;
+    top:-82px;
+    
+
+    
+}
+
+.banner .container{
+    z-index: 1;
+    position: relative;
+}
+
+.banner::before{
+    position: absolute;
+    content: "";
+    background: rgba(27, 47, 69, 0.6);
+    height: auto;
+    inset: 0;
+    top: -82px;
+}
+
+.banner::after{
+    position: absolute;
+    content: "";
+    width: 40%;
+    background: #1b2f45;;
+    top: -82px;
+    bottom: 0;
+    height: auto;
+}
+
+.focus{
+    
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    margin-top: 50px;
+}
+
+.fc-def{
+    color: #fff;
+    padding-left: 22px;
+    font-size: 15px;
+    line-height: 1.5;
+    border-left: 2px solid #56b8e6;;
+    margin: 40px 0;
+}
+
+.start{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background:#56b8e6;;
+}
+
+.watch-video{
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.fa-play-circle-o{
+    color: #56b8e6;
+    font-size: 35px;
+    margin-right: 8px;
+}
+
+
+
+
